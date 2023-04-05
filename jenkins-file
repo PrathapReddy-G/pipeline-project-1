@@ -1,0 +1,10 @@
+pipeline {
+    agent any
+    stages {
+    stage("coad pull from git"){
+    steps {
+    git branch: 'main' 'https:/https://github.com/PrathapReddy-G/pipeline-project-1.git'
+    }
+  }
+}
+}
